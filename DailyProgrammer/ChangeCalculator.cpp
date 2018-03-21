@@ -1,3 +1,11 @@
+/*
+	NOTES:
+	input: none, set an array in source code
+	output: the quantity and denominations of coins to make the set "change" value
+	
+	from /r/dailyprogrammer Challenge #349: https://www.reddit.com/r/dailyprogrammer/comments/7ttiq5/20180129_challenge_349_easy_change_calculator/
+*/
+
 #include <iostream>
 
 int *calc(int change, int coins[])

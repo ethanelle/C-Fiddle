@@ -1,3 +1,9 @@
+/* NOTES:
+	input: time in format HH::MM
+	output: time in the format of a string of words
+	from /r/dailyprogrammer Challege #321: https://www.reddit.com/r/dailyprogrammer/comments/6jr76h/20170627_challenge_321_easy_talking_clock/
+*/
+
 #include <stdio.h>
 #include <string.h>
 

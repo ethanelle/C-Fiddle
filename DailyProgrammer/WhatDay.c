@@ -1,3 +1,10 @@
+/*
+	NOTES:
+	input: a date in form YYYYMMDD
+	output: a string of the day of the week the date was
+	from /r/dailyprogrammer Challenge #338 : https://www.reddit.com/r/dailyprogrammer/comments/79npf9/20171030_challenge_338_easy_what_day_was_it_again/
+*/
+
 #include <stdio.h>
 
 static const char days[][8] = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
